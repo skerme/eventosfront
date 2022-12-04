@@ -61,7 +61,7 @@ export class ClienteComponent implements OnInit {
   @ViewChild(MatSort) matSort!: MatSort;
 
 
-  nome_desativar_apenas_para_administrador=''
+
   constructor(
     private clienteService: ClienteService,
     private estatisticaService: EstatisticaService,
@@ -97,7 +97,7 @@ export class ClienteComponent implements OnInit {
 
 
    this.listarAtivo();
-   this.nome_desativar_apenas_para_administrador=String(sessionStorage.getItem('name'))
+
   }
 
 

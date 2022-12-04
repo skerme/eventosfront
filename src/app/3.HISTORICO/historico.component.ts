@@ -74,7 +74,7 @@ export class HistoricoComponent implements OnInit {
   @ViewChild(MatSort) matSort!: MatSort;
 
 
-  nome_desativar_apenas_para_administrador=''
+
   constructor(
     private historicoService: HistoricoService,
     private formBuilder: FormBuilder,
@@ -124,7 +124,7 @@ export class HistoricoComponent implements OnInit {
    }
 
 
-   this.nome_desativar_apenas_para_administrador=String(sessionStorage.getItem('name'))
+
   }
 
 
