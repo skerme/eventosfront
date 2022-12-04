@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  urlhostname: 'https://modasapi.herokuapp.com'
+  urlhostname: 'https://eventosapii.herokuapp.com'
 };
